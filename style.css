@@ -1,0 +1,57 @@
+body {
+  background-image: linear-gradient(to bottom right, rgb(176, 228, 239),rgb(81, 96, 97),rgb(211, 212, 227), rgb(113, 90, 118));
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#video-container {
+  margin-top: 20px;
+  margin-left: 25%;
+  width: 800px;
+  height: 550px;  
+  border: 10px solid rgb(100, 236, 241);
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#localVideo, #remoteVideo {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  border: 10px solid rgb(100, 236, 241);
+}
+button{
+  box-shadow: 0px 5px 10px red;
+  margin-top: 3%;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: large;
+  border-radius: 10px;
+  color: rgb(242, 242, 248);
+  background-color: red;
+}
+button:hover{
+  background-color: aqua;
+  color: black;
+}
+#startCallButton{
+  margin-left: 22%;
+}
+#endCallButton{
+  margin-left: 5%;
+}
+#muteAudioButton{
+  margin-left: 5%;
+}
+#enableVideoButton{
+  margin-left: 5%;
+}
